@@ -12,7 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //アプリが起動した瞬間に初期状態に設定したいことを記入
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +21,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBOutlet weak var haollLabel: UILabel!
+  
+   
+    @IBAction func haollBtn(_ sender: Any) {
+        haollLabel.text = "Helloworld"
+              
+    }
 
 }
 
