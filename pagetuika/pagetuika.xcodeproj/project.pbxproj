@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		437891A81E2502B400D0390B /* くじぴょん-19448eるりこん.png in Resources */ = {isa = PBXBuildFile; fileRef = 437891A71E2502B400D0390B /* くじぴょん-19448eるりこん.png */; };
+		437891AA1E2502C100D0390B /* くじぴょん-69821bこけいろ.png in Resources */ = {isa = PBXBuildFile; fileRef = 437891A91E2502C100D0390B /* くじぴょん-69821bこけいろ.png */; };
+		43F3B0141E210622007742E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F3B0131E210622007742E8 /* AppDelegate.swift */; };
+		43F3B0161E210622007742E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F3B0151E210622007742E8 /* ViewController.swift */; };
+		43F3B0191E210622007742E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F3B0171E210622007742E8 /* Main.storyboard */; };
+		43F3B01B1E210622007742E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F3B01A1E210622007742E8 /* Assets.xcassets */; };
+		43F3B01E1E210622007742E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F3B01C1E210622007742E8 /* LaunchScreen.storyboard */; };
+		43F3B0291E210622007742E8 /* pagetuikaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F3B0281E210622007742E8 /* pagetuikaTests.swift */; };
+		43F3B0341E210623007742E8 /* pagetuikaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F3B0331E210623007742E8 /* pagetuikaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43F3B0251E210622007742E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43F3B0081E210622007742E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43F3B00F1E210622007742E8;
+			remoteInfo = pagetuika;
+		};
+		43F3B0301E210622007742E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43F3B0081E210622007742E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43F3B00F1E210622007742E8;
+			remoteInfo = pagetuika;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		437891A71E2502B400D0390B /* くじぴょん-19448eるりこん.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "くじぴょん-19448eるりこん.png"; sourceTree = "<group>"; };
+		437891A91E2502C100D0390B /* くじぴょん-69821bこけいろ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "くじぴょん-69821bこけいろ.png"; sourceTree = "<group>"; };
+		43F3B0101E210622007742E8 /* pagetuika.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pagetuika.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F3B0131E210622007742E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43F3B0151E210622007742E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43F3B0181E210622007742E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43F3B01A1E210622007742E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43F3B01D1E210622007742E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43F3B01F1E210622007742E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43F3B0241E210622007742E8 /* pagetuikaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pagetuikaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F3B0281E210622007742E8 /* pagetuikaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pagetuikaTests.swift; sourceTree = "<group>"; };
+		43F3B02A1E210622007742E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43F3B02F1E210622007742E8 /* pagetuikaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pagetuikaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F3B0331E210623007742E8 /* pagetuikaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pagetuikaUITests.swift; sourceTree = "<group>"; };
+		43F3B0351E210623007742E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43F3B00D1E210622007742E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F3B0211E210622007742E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F3B02C1E210622007742E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43F3B0071E210622007742E8 = {
+			isa = PBXGroup;
+			children = (
+				43F3B0121E210622007742E8 /* pagetuika */,
+				43F3B0271E210622007742E8 /* pagetuikaTests */,
+				43F3B0321E210623007742E8 /* pagetuikaUITests */,
+				43F3B0111E210622007742E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43F3B0111E210622007742E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43F3B0101E210622007742E8 /* pagetuika.app */,
+				43F3B0241E210622007742E8 /* pagetuikaTests.xctest */,
+				43F3B02F1E210622007742E8 /* pagetuikaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43F3B0121E210622007742E8 /* pagetuika */ = {
+			isa = PBXGroup;
+			children = (
+				437891A71E2502B400D0390B /* くじぴょん-19448eるりこん.png */,
+				437891A91E2502C100D0390B /* くじぴょん-69821bこけいろ.png */,
+				43F3B0131E210622007742E8 /* AppDelegate.swift */,
+				43F3B0151E210622007742E8 /* ViewController.swift */,
+				43F3B0171E210622007742E8 /* Main.storyboard */,
+				43F3B01A1E210622007742E8 /* Assets.xcassets */,
+				43F3B01C1E210622007742E8 /* LaunchScreen.storyboard */,
+				43F3B01F1E210622007742E8 /* Info.plist */,
+			);
+			path = pagetuika;
+			sourceTree = "<group>";
+		};
+		43F3B0271E210622007742E8 /* pagetuikaTests */ = {
+			isa = PBXGroup;
+			children = (
+				43F3B0281E210622007742E8 /* pagetuikaTests.swift */,
+				43F3B02A1E210622007742E8 /* Info.plist */,
+			);
+			path = pagetuikaTests;
+			sourceTree = "<group>";
+		};
+		43F3B0321E210623007742E8 /* pagetuikaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43F3B0331E210623007742E8 /* pagetuikaUITests.swift */,
+				43F3B0351E210623007742E8 /* Info.plist */,
+			);
+			path = pagetuikaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43F3B00F1E210622007742E8 /* pagetuika */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43F3B0381E210623007742E8 /* Build configuration list for PBXNativeTarget "pagetuika" */;
+			buildPhases = (
+				43F3B00C1E210622007742E8 /* Sources */,
+				43F3B00D1E210622007742E8 /* Frameworks */,
+				43F3B00E1E210622007742E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pagetuika;
+			productName = pagetuika;
+			productReference = 43F3B0101E210622007742E8 /* pagetuika.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43F3B0231E210622007742E8 /* pagetuikaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43F3B03B1E210623007742E8 /* Build configuration list for PBXNativeTarget "pagetuikaTests" */;
+			buildPhases = (
+				43F3B0201E210622007742E8 /* Sources */,
+				43F3B0211E210622007742E8 /* Frameworks */,
+				43F3B0221E210622007742E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43F3B0261E210622007742E8 /* PBXTargetDependency */,
+			);
+			name = pagetuikaTests;
+			productName = pagetuikaTests;
+			productReference = 43F3B0241E210622007742E8 /* pagetuikaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43F3B02E1E210622007742E8 /* pagetuikaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43F3B03E1E210623007742E8 /* Build configuration list for PBXNativeTarget "pagetuikaUITests" */;
+			buildPhases = (
+				43F3B02B1E210622007742E8 /* Sources */,
+				43F3B02C1E210622007742E8 /* Frameworks */,
+				43F3B02D1E210622007742E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43F3B0311E210622007742E8 /* PBXTargetDependency */,
+			);
+			name = pagetuikaUITests;
+			productName = pagetuikaUITests;
+			productReference = 43F3B02F1E210622007742E8 /* pagetuikaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43F3B0081E210622007742E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "永岡玲子";
+				TargetAttributes = {
+					43F3B00F1E210622007742E8 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					43F3B0231E210622007742E8 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 43F3B00F1E210622007742E8;
+					};
+					43F3B02E1E210622007742E8 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 43F3B00F1E210622007742E8;
+					};
+				};
+			};
+			buildConfigurationList = 43F3B00B1E210622007742E8 /* Build configuration list for PBXProject "pagetuika" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43F3B0071E210622007742E8;
+			productRefGroup = 43F3B0111E210622007742E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43F3B00F1E210622007742E8 /* pagetuika */,
+				43F3B0231E210622007742E8 /* pagetuikaTests */,
+				43F3B02E1E210622007742E8 /* pagetuikaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43F3B00E1E210622007742E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F3B01E1E210622007742E8 /* LaunchScreen.storyboard in Resources */,
+				437891A81E2502B400D0390B /* くじぴょん-19448eるりこん.png in Resources */,
+				43F3B01B1E210622007742E8 /* Assets.xcassets in Resources */,
+				43F3B0191E210622007742E8 /* Main.storyboard in Resources */,
+				437891AA1E2502C100D0390B /* くじぴょん-69821bこけいろ.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F3B0221E210622007742E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F3B02D1E210622007742E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43F3B00C1E210622007742E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F3B0161E210622007742E8 /* ViewController.swift in Sources */,
+				43F3B0141E210622007742E8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F3B0201E210622007742E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F3B0291E210622007742E8 /* pagetuikaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F3B02B1E210622007742E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F3B0341E210623007742E8 /* pagetuikaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43F3B0261E210622007742E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43F3B00F1E210622007742E8 /* pagetuika */;
+			targetProxy = 43F3B0251E210622007742E8 /* PBXContainerItemProxy */;
+		};
+		43F3B0311E210622007742E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43F3B00F1E210622007742E8 /* pagetuika */;
+			targetProxy = 43F3B0301E210622007742E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43F3B0171E210622007742E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43F3B0181E210622007742E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43F3B01C1E210622007742E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43F3B01D1E210622007742E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43F3B0361E210623007742E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43F3B0371E210623007742E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43F3B0391E210623007742E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pagetuika/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.pagetuika;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		43F3B03A1E210623007742E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pagetuika/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.pagetuika;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		43F3B03C1E210623007742E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pagetuikaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.pagetuikaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pagetuika.app/pagetuika";
+			};
+			name = Debug;
+		};
+		43F3B03D1E210623007742E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pagetuikaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.pagetuikaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pagetuika.app/pagetuika";
+			};
+			name = Release;
+		};
+		43F3B03F1E210623007742E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = pagetuikaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.pagetuikaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = pagetuika;
+			};
+			name = Debug;
+		};
+		43F3B0401E210623007742E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = pagetuikaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.pagetuikaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = pagetuika;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43F3B00B1E210622007742E8 /* Build configuration list for PBXProject "pagetuika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F3B0361E210623007742E8 /* Debug */,
+				43F3B0371E210623007742E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43F3B0381E210623007742E8 /* Build configuration list for PBXNativeTarget "pagetuika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F3B0391E210623007742E8 /* Debug */,
+				43F3B03A1E210623007742E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43F3B03B1E210623007742E8 /* Build configuration list for PBXNativeTarget "pagetuikaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F3B03C1E210623007742E8 /* Debug */,
+				43F3B03D1E210623007742E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43F3B03E1E210623007742E8 /* Build configuration list for PBXNativeTarget "pagetuikaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F3B03F1E210623007742E8 /* Debug */,
+				43F3B0401E210623007742E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43F3B0081E210622007742E8 /* Project object */;
+}

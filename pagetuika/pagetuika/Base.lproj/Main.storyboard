@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="pagetuika" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="くじぴょん-19448eるりこん.png" translatesAutoresizingMaskIntoConstraints="NO" id="4B9-Dw-gdq">
+                                <rect key="frame" x="-58" y="0.0" width="630" height="768"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z5B-ke-J0P">
+                                <rect key="frame" x="252" y="382" width="107" height="92"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="107" id="HZR-Gn-Rkb"/>
+                                    <constraint firstAttribute="height" constant="92" id="SXp-f6-RKG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="70"/>
+                                <state key="normal" title="次">
+                                    <color key="titleColor" red="0.71764705882352942" green="0.15686274509803921" blue="0.1803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="RB5-JW-irM" kind="show" id="iyT-EQ-56r"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="１ページ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aPA-M4-wII">
+                                <rect key="frame" x="151.5" y="198" width="200" height="63"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="63" id="6lY-ve-eJM"/>
+                                    <constraint firstAttribute="height" constant="63" id="9Fc-Fy-6nb"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="191" id="WbN-K0-FaZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="50"/>
+                                <color key="textColor" red="0.098039215686274508" green="0.26666666666666666" blue="0.55686274509803924" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.53725490196078429" green="0.76470588235294112" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="aPA-M4-wII" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="64" id="7eI-Nc-kbB"/>
+                            <constraint firstItem="aPA-M4-wII" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="64" id="Bec-X2-EYC"/>
+                            <constraint firstItem="4B9-Dw-gdq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="69.5" id="CNg-vq-oBE"/>
+                            <constraint firstItem="aPA-M4-wII" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-104" id="E1l-5i-ooa"/>
+                            <constraint firstItem="Z5B-ke-J0P" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="94.5" id="KjX-S3-R3h"/>
+                            <constraint firstItem="Z5B-ke-J0P" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="118" id="r1S-ZQ-IBR"/>
+                            <constraint firstItem="4B9-Dw-gdq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="50.5" id="sOw-Tw-eXW"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-265" y="139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Qfo-jR-sX2">
+            <objects>
+                <viewController id="RB5-JW-irM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="av8-gD-cEg"/>
+                        <viewControllerLayoutGuide type="bottom" id="vRf-Ed-mXx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nCv-x2-G5s">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="くじぴょん-69821bこけいろ.png" translatesAutoresizingMaskIntoConstraints="NO" id="r6Y-5g-VRE">
+                                <rect key="frame" x="-59" y="20" width="630" height="768"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u0u-ea-z8E">
+                                <rect key="frame" x="261" y="404" width="98" height="79"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="98" id="dJ9-lT-9hT"/>
+                                    <constraint firstAttribute="height" constant="79" id="fPR-fi-1KK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="70"/>
+                                <state key="normal" title="戻">
+                                    <color key="titleColor" red="0.71764705882352942" green="0.15686274509803921" blue="0.1803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="394-xY-Xku"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="２ページ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VcA-aj-DRh">
+                                <rect key="frame" x="133" y="198" width="226" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="226" id="U3X-th-sue"/>
+                                    <constraint firstAttribute="height" constant="80" id="i80-dy-VfM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="50"/>
+                                <color key="textColor" red="0.41176470588235292" green="0.50980392156862742" blue="0.10588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.80392156862745101" green="1" blue="0.21176470588235294" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="VcA-aj-DRh" firstAttribute="centerY" secondItem="nCv-x2-G5s" secondAttribute="centerY" constant="-95.5" id="4bV-1m-PbS"/>
+                            <constraint firstItem="r6Y-5g-VRE" firstAttribute="centerX" secondItem="nCv-x2-G5s" secondAttribute="centerX" constant="68.5" id="KgG-Hx-Ldh"/>
+                            <constraint firstItem="VcA-aj-DRh" firstAttribute="centerX" secondItem="nCv-x2-G5s" secondAttribute="centerX" constant="58.5" id="Qpb-Yc-8Lp"/>
+                            <constraint firstItem="u0u-ea-z8E" firstAttribute="centerY" secondItem="nCv-x2-G5s" secondAttribute="centerY" constant="110" id="VBz-bY-ebu"/>
+                            <constraint firstItem="r6Y-5g-VRE" firstAttribute="centerY" secondItem="nCv-x2-G5s" secondAttribute="centerY" constant="70.5" id="WhC-pz-UXT"/>
+                            <constraint firstItem="u0u-ea-z8E" firstAttribute="centerX" secondItem="nCv-x2-G5s" secondAttribute="centerX" constant="122.5" id="txk-zC-39s"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GYz-sg-kRP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1006" y="139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="くじぴょん-19448eるりこん.png" width="630" height="768"/>
+        <image name="くじぴょん-69821bこけいろ.png" width="630" height="768"/>
+    </resources>
+</document>
